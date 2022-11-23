@@ -84,3 +84,48 @@
 
 
             //-FUNCTIONS-\\
+
+    //TASK 1 : Favorite Movie (void functions)\\
+
+// function printMovieName(favMovie){
+//     let result;
+//     result = favMovie;
+//     favMovie = "";
+//     return result;
+// }
+
+// let myResult = printMovieName("Apocalypto");
+// console.log(myResult);
+
+    //TASK 2 : Favorite Band\\
+
+// function favBand(bandName){
+//     bandName = prompt("Whats your favorite band?")
+//      return bandName
+
+// }
+// let bandName = favBand();
+// console.log(bandName)
+
+//     //TASK 3 : Concert\\
+
+// function concertDisplay(musicalAct){
+//     myStreet = prompt("What street do you live on?")
+//     result = console.log(`It would be great if ${musicalAct} played a show on ${myStreet}!`)
+//     return result
+// }
+// let myResult = concertDisplay(bandName);
+// console.log(myResult)
+
+
+            //-ARRAYS-\\
+
+    //TASK 1 : Desktop Items\\
+
+let desktopItems = ['desk','macbook','main-display','power-strip','notebook','pen','vape'];
+console.log(`Index 1 : ${desktopItems[1]}`)
+desktopItems.push('Infinity Gauntlet')
+
+for(let i of desktopItems) {
+    console.log(i);
+}
