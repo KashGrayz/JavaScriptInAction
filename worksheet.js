@@ -55,10 +55,32 @@
 //     console.log("Hendrix");
 // }
 
+
             //-"FOR" LOOPS-\\
 
-    //TASK 1 :\\
+    //TASK 1\\
+
+// for(let i = 0; i < 8; i++) {
+//     console.log(`${i} Javascript is cool!`);
+// }
+
+    //TASK 2\\
+
+// for (let i=0; i < 11; i++) {
+//     console.log(i);
+// }
+
+    //TASK 3\\
+
+// let text = "";
+// let text2 = "";
+
+// for(let i =0; i < 5; i++) {
+//     text = "Hello";
+//     text2 = "Goodbye";
+//     console.log(text);
+//     console.log(text2);
+// }
 
 
-
-
+            //-FUNCTIONS-\\
